@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(78, 162, 190);
+    margin: 0;
+    
+
+}
+
+h1 {
+    background-color: rgb(199, 17, 17);
+    padding: 15px;
+    margin: 0;
+    
+    justify-items: center;
+    text-align: center;
+    
+}
+
+.box{
+    display: inline-block;
+    
+    height: 260%;
+    margin: 5px;
+}
+img{
+    width: 100px;
+    height: 100px;
+    
+}
+img:hover{
+    transform: scale(2,2);
+    transition: .3s transform;
+}
+
+  .box2{
+    display: inline-block;
+    padding:2px;
+    overflow: hidden;
+    margin: 0;
+}
+h1.black{
+    background-color: black;
+    color: white;   
+}
+button.btn {
+    background-color: rgb(134, 111, 155);
+           padding: 5px;
+           margin: 15px;
+           text-decoration: none;
+         
+          
+}
+button.btn:hover{
+    background-color: aqua;
+}
+ 
